@@ -1,0 +1,13 @@
+.map {
+    height:700px;
+    width:700px;
+}
+.map-container {
+    height: 100vh;
+    width: 50%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
