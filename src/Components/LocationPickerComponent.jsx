@@ -24,7 +24,7 @@ const api = 'AIzaSyADUByO6T5hXegxXoBB0eb6zzEzsuZHZaE'
             console.log(response)
             if (response.data.results.length > 0) {
                 const address = response.data.results[0].formatted_address;
-                  setClickedLocation({ latitude, longitude, address });
+                //   setClickedLocation({ latitude, longitude, address });
             }
         } catch (error) {
             console.error('Error fetching address:', error);
